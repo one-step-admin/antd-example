@@ -341,7 +341,7 @@ function testAccount(account: string) {
   z-index: 0;
   width: 100%;
   height: 100%;
-  background: radial-gradient(circle at center, var(--g-container-bg), var(--g-bg));
+  background: radial-gradient(circle at center, var(--g-app-bg), var(--g-main-bg));
 }
 
 #login-box {
@@ -351,14 +351,14 @@ function testAccount(account: string) {
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
-  background-color: var(--g-container-bg);
+  background-color: var(--g-app-bg);
   border-radius: 10px;
   overflow: hidden;
 
   .login-banner {
     position: relative;
     width: 450px;
-    background-color: var(--g-bg);
+    background-color: var(--g-main-bg);
     overflow: hidden;
 
     .banner {
